@@ -1,4 +1,4 @@
-name: dummy-job-2
+name: otherDummyJob
 scriptPath: jobs/dummy_job_2/main.py
 type: spark
 glueVersion: python3-2.0
