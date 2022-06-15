@@ -1,0 +1,5 @@
+name: dummy_job
+scriptPath: jobs/dummy_job/main.py
+type: spark
+glueVersion: python3-2.0
+role: arn:aws:iam::395184688301:role/service-role/AWSGlueServiceRole-glue

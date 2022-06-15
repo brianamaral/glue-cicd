@@ -1,0 +1,12 @@
+service: jobs
+
+frameworkVersion: '3'
+
+plugins:
+  - serverless-glue
+
+Glue:
+  bucketDeploy: aws-glue-jobs
+  jobs:
+    - ${file(jobs/dummy_job/definition.yml)}
+
