@@ -13,4 +13,5 @@ Glue:
   bucketDeploy: aws-glue-jobs-dummy-cicd
   jobs:
     - ${file(jobs/dummy_job/definition.yml)}
+    - ${file(jobs/dummy_job_2/definition.yml)}
 
