@@ -15,6 +15,6 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
-
+.ipynb_checkpoints
 # Serverless directories
 .serverless

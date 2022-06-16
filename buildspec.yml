@@ -1,5 +1,6 @@
 version: 0.2
 phases:
+  
   install:
     runtime-versions:
       nodejs: latest
@@ -7,6 +8,11 @@ phases:
       - apt update
       - npm install -g serverless
       - npm install serverless-glue
+      - sudo apt install python3
+      - pip3 install nbconvert
+
+  convert_notebooks:
+    commands:
   build:
     commands:
       - sls deploy
