@@ -13,6 +13,8 @@ phases:
 
   convert_notebooks:
     commands:
+      - jupyter nbconvert --to python ./jobs/*/*.ipynb
+      
   build:
     commands:
       - sls deploy
