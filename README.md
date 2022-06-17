@@ -12,3 +12,8 @@ This repo consistis in my ideal workflow for overcoming some problems that AWS G
 * The push will trigger your CICD pipeline (AWS CodePipeline, Github Actions, Jenkins)
 * In your pipeline, you will have to convert your notebook into python scripts, install the serverless framework and run the "serverless deploy" command.
 
+## Acknowledgements
+
+* [Serverless](https://www.serverless.com/)
+* [Serverless-glue](https://github.com/toryas/serverless-glue)
+* [pyspark-notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-pyspark-notebook)
