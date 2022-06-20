@@ -11,6 +11,7 @@ plugins:
 
 Glue:
   bucketDeploy: aws-glue-jobs-dummy-cicd
+  s3Prefix: glueJobs/
   jobs:
     - ${file(jobs/dummy_job/definition.yml)}
     - ${file(jobs/dummy_job_2/definition.yml)}
